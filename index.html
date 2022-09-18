@@ -19,43 +19,48 @@
     <title>JS Text Counter</title>
   </head>
   <body>
-    <div class="container">
+    <div class="app-container">
       <div>
-        <textarea
-        name="text-field"
-        id="text-field"
-        cols="30"
-        rows="10"
-        placeholder="Type Something..."
-        ></textarea>
-      </div>
+        <div class="container">
+          <div>
+            <textarea
+              name="text-field"
+              id="text-field"
+              cols="30"
+              rows="10"
+              placeholder="Type Something..."
+            ></textarea>
+          </div>
 
-      <div class="counter-container">
-        <div class="counters">
-          <h2>words</h2>
-          <h4>0</h5>
+          <div class="counter-container">
+            <div class="counters">
+              <h2>words</h2>
+              <h4>0</h4>
+            </div>
+            <div class="counters">
+              <h2>space</h2>
+              <h4>0</h4>
+            </div>
+            <div class="counters">
+              <h2>chars</h2>
+              <h4>0</h4>
+            </div>
+          </div>
         </div>
-        
-          <div class="counters">    
-            <h2>space</h2>
-            <h4>0</h5>
-          </div>
-          <div class="counters">
-            <h2>chars</h2>
-            <h4>0</h5>
-          </div>
+      </div>
+      <div>
+        <div class="animation-gif">
+          <lottie-player
+            src="https://assets10.lottiefiles.com/private_files/lf30_5bsxhzst.json"
+            background="transparent"
+            speed="1"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
       </div>
     </div>
-    <!-- <div class="animation-gif">
-      <lottie-player
-        src="https://assets10.lottiefiles.com/private_files/lf30_5bsxhzst.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px"
-        loop
-        autoplay
-      ></lottie-player>
-    </div> -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="app.js"></script>
   </body>

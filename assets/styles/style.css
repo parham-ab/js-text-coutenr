@@ -54,3 +54,19 @@ textarea {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 10px;
 }
+.animation-gif {
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-around;
+}
+/* media-queries */
+@media (max-width: 654px) {
+  .app-container {
+    flex-direction: column;
+  }
+}
