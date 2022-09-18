@@ -30,6 +30,7 @@
 }
 body {
   font-family: "Dosis", sans-serif;
+  background: #051f26;
 }
 textarea {
   outline-color: #efefef !important;
