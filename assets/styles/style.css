@@ -30,7 +30,26 @@
 }
 body {
   font-family: "Dosis", sans-serif;
-  background: #051f26;
+  background: rgb(1, 0, 18);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(1, 0, 18, 1) 0%,
+    rgba(71, 1, 150, 1) 52%,
+    rgba(0, 109, 110, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(1, 0, 18, 1) 0%,
+    rgba(71, 1, 150, 1) 52%,
+    rgba(0, 109, 110, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(1, 0, 18, 1) 0%,
+    rgba(71, 1, 150, 1) 52%,
+    rgba(0, 109, 110, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010012",endColorstr="#006d6e",GradientType=1);
 }
 textarea {
   outline-color: #efefef !important;
